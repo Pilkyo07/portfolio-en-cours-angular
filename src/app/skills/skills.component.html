@@ -1,0 +1,11 @@
+<h1 class="sub-title">My <span>Skills</span></h1>
+<section>
+    <div class="container1" id="skills">
+        <h2 class="heading1">Technical skills</h2>
+        <div class="technical-bars">
+            <div *ngFor="let competence of competences; let i = index">
+                <h3>{{ competence.nom }}</h3>
+            </div>
+        </div>
+    </div>
+</section>
